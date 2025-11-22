@@ -10,8 +10,7 @@ and Useful for testing how your own servers behave under load.
 - UDP flood
 - TCP flood
 - Threaded attacks
-- Color output (colorama)
-- Simple banner (easy to replace with figlet)
+- Color output
 - Pure Python (only `requests` needed for HTTP)
 
 ## Usage
@@ -30,12 +29,11 @@ For HTTP, it rotates fake user-agents automatically.
 ## Requirements
 
     python3
-    colorama
     requests   (optional, only for HTTP)
 
 Install:
 
-    pip install colorama requests
+    pip install requests
 
 ## Warning
 This tool is **only for testing your own servers**.
